@@ -55,7 +55,6 @@ body {
   flex-wrap: wrap;
   margin: 4rem 2rem;
   user-select: none;
-  max-width: calc(31rem + 50vw);
   gap: 6rem;
 }
 
