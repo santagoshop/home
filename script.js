@@ -241,9 +241,9 @@ let lang = {
     location: 'Csíkszereda',
 
     //ide az aposztrofok koze kell irni a szoveget kulon-kulon, <= 70 szo
-    textVelux: 'Velux szovege magyarul',
-    textBaumit: 'Baumit szovege magyarul',
-    textRemmers: 'Remmers szovege magyarul',
+    textVelux: 'Velux szovege magyarul nemsokára elérhető lesz',
+    textBaumit: 'Baumit szovege magyarul nemsokára elérhető lesz',
+    textRemmers: 'Remmers szovege magyarul nemsokára elérhető lesz',
   },
   ro: {
     info: 'Pentru comanda, detaliile:',
