@@ -238,7 +238,7 @@ let lang = {
 
     //ide az aposztrofok koze kell irni a szoveget kulon-kulon, <= 70 szo
     textVelux: '2022-ben is a természetes fény elűzi a sötétséget a házból. Velux 2022 mégegyszer különbséget tesz a sötétség és a fény között. Itten a 2022-es Velux katalógus által lehetőséged van tisztán látni az elsőbbségeket. Minden méretben és formában ajánl tetőtéri ablakokat a Velux. A Velux ma már a fény szinonimája.',
-    textBaumit: 'Baumit 2022 az a szem amelyen keresztül a világot szilárdabnak, színesebbnek és energetikailag gazdaságosabbnak látod. A 2022-es Baumit katalógus minőséget hoz az építkezéseidbe, a Baumit minőségét. 2022-ben az építkezés a minőségének szinonimája a Baumit. Építs, simíts, tégy gazdaságosabbá a Baumittal.',
+    textBaumit: 'Baumit 2022 az a szem amelyen keresztül a világot szilárdabnak, színesebbnek és energetikailag gazdaságosabbnak látod. A 2022-es Baumit katalógus minőséget hoz az építkezéseidbe, a Baumit minőségét. 2022-ben az építkezés minőségének szinonimája a Baumit. Építs, simíts, tégy gazdaságosabbá a Baumittal.',
     textRemmers: 'A Remmers 2022-ben hozhatja el számodra a színeket, a védelmet, a minőséget. A Remmers termékekből választhatsz 2022-ben is a körülötted lévő fa kellékek védelmére, hangulatossá tételére. A remmers és a fa, szoros és tartós kapcsolatban áll.',
 
     back: 'Menj vissza a fő oldalra!',
