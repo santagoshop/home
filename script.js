@@ -247,7 +247,7 @@ let lang = {
     textRemmersAttention: 'Click ide a részletekért!'
   },
   ro: {
-    info: 'Pentru comanda, detaliile:',
+    info: 'Pentru comenzi detaliile:',
     location: 'Miercurea Ciuc',
 
     textVelux: 'Și în 2022 lumina naturală alungă întunericul din casă. Velux 2022 face încă odată diferența dintre întuneric și lumină. Aici ai ocazia prin catalogul Velux 2022 să vezi mai clar prioritățile. Velux îți oferă ferestre de mansardă de toate formele și mărimile. Velux devine sinonima luminii.',
