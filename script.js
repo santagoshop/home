@@ -242,7 +242,7 @@ let lang = {
     textRemmers: 'A Remmers 2022-ben hozhatja el számodra a színeket, a védelmet, a minőséget. A Remmers termékekből választhatsz 2022-ben is a körülötted lévő fa kellékek védelmére, hangulatossá tételére. A remmers és a fa, szoros és tartós kapcsolatban áll.',
 
     back: 'Menj vissza a fő oldalra!',
-    textRemmersCard: 'Ezen az oldalon a ,,vizesbázisú, univerzális vékonylazúrt,, forgalmazzuk kültérre vagy beltérre. Várjuk rendeléseiket erre és az egész Remmers házi termékcsaládra. Ha az alábbi linkre kattintasz a Remmers termékcsaládra kaphatsz rálátást. A fenti link visz a kezdőoldalra.',
+    textRemmersCard: 'Ezen az oldalon a <b>vizesbázisú, univerzális vékonylazúrt</b> forgalmazzuk kültérre vagy beltérre. Várjuk rendeléseiket erre és az egész Remmers házi termékcsaládra. Ha az alábbi linkre kattintasz a Remmers termékcsaládra kaphatsz rálátást. A fenti link visz a kezdőoldalra.',
     textRemmersAttention: 'Click ide a részletekért!'
   },
   ro: {
@@ -254,7 +254,7 @@ let lang = {
     textRemmers: 'Remmers și în 2022 poate să-ți aducă culoare, protecție și calitate. Dintre produsele Remmers poți alege și în 2022 pentru a proteja și a da elementelor din lemn din jurul tău culoare. Remmers și lemnul este într-o relație strânsă și durabilă.',
 
     back: 'Mergi pe pagina principală',
-    textRemmersCard: 'Pe această pagină vă oferim Remmers ,,Aidol Universal Holslazur pe bază de apă,, și așteptăm comenzile dumneavoastră pe toată gama Remmers familia casnică. Dacă dai click mai jos vei vedea familia Remmers și certificatele de calitate. Linkul de mai sus te duce pe prima pagină.',
+    textRemmersCard: 'Pe această pagină vă oferim Remmers <b>Aidol Universal Holslazur pe bază de apă</b> și așteptăm comenzile dumneavoastră pe toată gama Remmers familia casnică. Dacă dai click mai jos vei vedea familia Remmers și certificatele de calitate. Linkul de mai sus te duce pe prima pagină.',
     textRemmersAttention: 'Click aici pentru detalii!'
   }
 }
@@ -340,7 +340,7 @@ if (window.location.hash == '#hu') {
   slideTextRemmers.textContent = lang.hu.textRemmers;
 
   goBack.textContent = lang.hu.back;
-  cardText.textContent = lang.hu.textRemmersCard;
+  cardText.innerHTML = lang.hu.textRemmersCard;
   cardAttention.textContent = lang.hu.textRemmersAttention;
 
   html.lang = 'hu_HU';
@@ -355,7 +355,7 @@ else if (window.location.hash == '#ro') {
   slideTextRemmers.textContent = lang.ro.textRemmers;
 
   goBack.textContent = lang.ro.back;
-  cardText.textContent = lang.ro.textRemmersCard;
+  cardText.innerHTML = lang.ro.textRemmersCard;
   cardAttention.textContent = lang.ro.textRemmersAttention;
 
   html.lang = 'ro_RO';
