@@ -254,8 +254,7 @@ let lang = {
     textRemmers: 'Remmers și în 2022 poate să-ți aducă culoare, protecție și calitate. Dintre produsele Remmers poți alege și în 2022 pentru a proteja și a da elementelor din lemn din jurul tău culoare. Remmers și lemnul este într-o relație strânsă și durabilă.',
 
     back: 'Mergi pe pagina principală',
-    textRemmersCard: 'Pe această pagină vă oferim Remmers <b>Aidol Universal Holslazur pe bază de apă</b> și așteptăm comenzile dumneavoastră pe toată gama Remmers familia casnică. Dacă dai click mai jos vei vedea familia Remmers și certificatele de calitate. Linkul de mai sus te duce pe prima pagină.
-    Pentru comenzi: Ágoston Hajnal, Miercurea Ciuc, +40745983283',
+    textRemmersCard: 'Pe această pagină vă oferim Remmers <b>Aidol Universal Holslazur pe bază de apă</b> și așteptăm comenzile dumneavoastră pe toată gama Remmers familia casnică. Dacă dai click mai jos vei vedea familia Remmers și certificatele de calitate. Linkul de mai sus te duce pe prima pagină. Pentru comenzi: Ágoston Hajnal, Miercurea Ciuc, +40745983283',
     textRemmersAttention: 'Click aici pentru detalii!'
   }
 }
