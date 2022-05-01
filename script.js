@@ -333,6 +333,9 @@ let remmersClicked = (rem) => {
 remmersClicked(titleRemmers);
 remmersClicked(imgRemmers);
 
+const metaDescription = document.querySelector("head > meta:nth-child(5)");
+const html = document.querySelector("html");
+
 if (window.location.hash == '#hu') {
   infoName.textContent = lang.hu.info;
   infoLocation.textContent = lang.hu.location;
@@ -344,6 +347,9 @@ if (window.location.hash == '#hu') {
   goBack.textContent = lang.hu.back;
   cardText.textContent = lang.hu.textRemmersCard;
   cardAttention.textContent = lang.hu.textRemmersAttention;
+
+  metaDescription.content = 'Cégünk 2022-ben is terjeszt: Velux, Baumit és Remmers termékeket, komoly hozzáállással minőséget, amely a fenti nevek szinonimája lett. Rendelések: Ágoston Hajnal, tel. 0745983283.';
+  html.lang = 'hu_HU';
 }
 
 else if (window.location.hash == '#ro') {
@@ -357,6 +363,9 @@ else if (window.location.hash == '#ro') {
   goBack.textContent = lang.ro.back;
   cardText.textContent = lang.ro.textRemmersCard;
   cardAttention.textContent = lang.ro.textRemmersAttention;
+
+  metaDescription.content = 'Firma noastră distribuie și în 2022: Velux, Baumit și Remmers prompt și calitate, ce este sinonimă cu denumirile de mai sus.  Comenzi: Ágoston Hajnal, tel. 0745983283.';
+  html.lang = 'ro_RO';
 }
 
 window.onload = () => {
