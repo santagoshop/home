@@ -296,7 +296,7 @@ const goBack = document.createElement('div');
 goBack.classList.add('go-back');
 goBack.textContent = 'Go Back!';
 
-cardText.textContent = lang.hu.textRemmersCard;
+cardText.innerHTML = lang.hu.textRemmersCard;
 cardAttention.textContent = lang.hu.textRemmersAttention;
 goBack.textContent = lang.hu.back;
 
