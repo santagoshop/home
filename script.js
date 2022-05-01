@@ -205,22 +205,6 @@ for (let i = 0; i < 3; i++) {
   cards.appendChild(card);
 }
 
-// Add alt tags to images
-// Logos
-cards.childNodes[0].childNodes[0].childNodes[0].alt = 'Velux';
-cards.childNodes[1].childNodes[0].childNodes[0].alt = 'Baumit';
-cards.childNodes[2].childNodes[0].childNodes[0].alt = 'Remmers';
-
-// Cards
-cards.childNodes[0].childNodes[1].childNodes[0].alt = 'Velux';
-cards.childNodes[1].childNodes[1].childNodes[0].alt = 'Baumit';
-cards.childNodes[2].childNodes[1].childNodes[0].alt = 'Remmers';
-
-// Slides
-slides.childNodes[0].childNodes[1].childNodes[0].alt = 'Velux';
-slides.childNodes[1].childNodes[1].childNodes[0].alt = 'Baumit';
-slides.childNodes[2].childNodes[1].childNodes[0].alt = 'Remmers';
-
 // set card titles
 setSrc(cards.childNodes[0].childNodes[0].childNodes[0], 'src', './logos/velux.svg');
 setSrc(cards.childNodes[1].childNodes[0].childNodes[0], 'src', './logos/baumit.png');
@@ -253,25 +237,29 @@ let lang = {
     location: 'Csíkszereda',
 
     //ide az aposztrofok koze kell irni a szoveget kulon-kulon, <= 70 szo
-    textVelux: 'Velux szovege magyarul',
-    textBaumit: 'Baumit szovege magyarul :)',
-    textRemmers: 'Remmers szovege magyarul',
+    textVelux: '2022-ben is a természetes fény elűzi a sötétséget a házból. Velux 2022 mégegyszer különbséget tesz a sötétség és a fény között. Itten a 2022-es Velux katalógus által lehetőséged van tisztán látni az elsőbbségeket. Minden méretben és formában ajánl tetőtéri ablakokat a Velux. A Velux ma már a fény szinonimája.',
+    textBaumit: 'Baumit 2022 az a szem amelyen keresztül a világot szilárdabnak, színesebbnek és energetikailag gazdaságosabbnak látod. A 2022-es Baumit katalógus minőséget hoz az építkezéseidbe, a Baumit minőségét. 2022-ben az építkezés a minőségének szinonimája a Baumit. Építs, simíts, tégy gazdaságosabbá a Baumittal.',
+    textRemmers: 'A Remmers 2022-ben hozhatja el számodra a színeket, a védelmet, a minőséget. A Remmers termékekből választhatsz 2022-ben is a körülötted lévő fa kellékek védelmére, hangulatossá tételére. A remmers és a fa, szoros és tartós kapcsolatban áll.',
 
-    back: 'Menj vissza a fo oldalra!',
-    textRemmersCard: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas accusamus harum doloribus perferendis eveniet sequi cumque. Dignissimos aperiam autem sit, nisi neque, cupiditate ratione repellendus cumque illo consectetur laborum eveniet!',
-    textRemmersAttention: 'Click a kartyara!'
+    back: 'Menj vissza a fő oldalra!',
+    textRemmersCard: 'Ezen az oldalon a •••vizesbázisú, univerzális vékonylazúrt••• forgalmazzuk kültérre vagy beltérre. Várjuk rendeléseiket erre és az egész Remmers házi termékcsaládra.
+Ha az alábbi linkre kattintasz a Remmers termékcsaládra kaphatsz rálátást.
+A fenti link visz a kezdőoldalra.',
+    textRemmersAttention: 'Click ide a részletekért!'
   },
   ro: {
     info: 'Pentru comanda, detaliile:',
     location: 'Miercurea Ciuc',
 
-    textVelux: 'Velux szovege romanul',
-    textBaumit: 'Baumit szovege romanul',
-    textRemmers: 'Remmers szovege romanul',
+    textVelux: 'Și în 2022 lumina naturală alungă întunericul din casă. Velux 2022 face încă odată diferența dintre întuneric și lumină. Aici ai ocazia prin catalogul Velux 2022 să vezi mai clar prioritățile. Velux îți oferă ferestre de mansardă de toate formele și mărimile. Velux devine sinonima luminii.',
+    textBaumit: 'Baumit 2022 este ochiul prin care vezi lumea mai stabilă, mai colorată, mai eficientă energetic. Catalogul Baumit 2022 îți aduce calitate în construcțiile tale, calitatea Baumit. În 2022 sinonima calității este Baumit. Construiește, finisează, eficientizează cu Baumit.',
+    textRemmers: 'Remmers și în 2022 poate să-ți aducă culoare, protecție și calitate. Dintre produsele Remmers poți alege și în 2022 pentru a proteja și a da elementelor din lemn din jurul tău culoare. Remmers și lemnul este într-o relație strânsă și durabilă.',
 
-    back: 'Menj vissza a fo oldalra! romanul',
-    textRemmersCard: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas accusamus harum doloribus perferendis eveniet sequi cumque. Dignissimos aperiam autem sit, nisi neque, cupiditate ratione repellendus cumque illo consectetur laborum eveniet! romanul',
-    textRemmersAttention: 'Click a kartyara, de romanul!'
+    back: 'Mergi pe pagina principală',
+    textRemmersCard: 'Pe această pagină vă oferim Remmers ••• Aidol Universal Holslazur pe bază de apă••• și așteptăm comenzile dumneavoastră pe toată gama Remmers familia casnică.
+Dacă dai click mai jos vei vedea familia Remmers și certificatele de calitate.
+Linkul de mai sus te duce pe prima pagină.',
+    textRemmersAttention: 'Click aici pentru detalii!'
   }
 }
 
