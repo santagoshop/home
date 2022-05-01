@@ -205,6 +205,22 @@ for (let i = 0; i < 3; i++) {
   cards.appendChild(card);
 }
 
+// Add alt tags to images
+// Logos
+cards.childNodes[0].childNodes[0].childNodes[0].alt = 'Velux';
+cards.childNodes[1].childNodes[0].childNodes[0].alt = 'Baumit';
+cards.childNodes[2].childNodes[0].childNodes[0].alt = 'Remmers';
+
+// Cards
+cards.childNodes[0].childNodes[1].childNodes[0].alt = 'Velux';
+cards.childNodes[1].childNodes[1].childNodes[0].alt = 'Baumit';
+cards.childNodes[2].childNodes[1].childNodes[0].alt = 'Remmers';
+
+// Slides
+slides.childNodes[0].childNodes[1].childNodes[0].alt = 'Velux';
+slides.childNodes[1].childNodes[1].childNodes[0].alt = 'Baumit';
+slides.childNodes[2].childNodes[1].childNodes[0].alt = 'Remmers';
+
 // set card titles
 setSrc(cards.childNodes[0].childNodes[0].childNodes[0], 'src', './logos/velux.svg');
 setSrc(cards.childNodes[1].childNodes[0].childNodes[0], 'src', './logos/baumit.png');
