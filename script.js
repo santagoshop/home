@@ -375,3 +375,5 @@ window.onload = () => {
   changePages();
   startSlides();
 }
+
+// check
